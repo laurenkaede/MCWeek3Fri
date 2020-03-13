@@ -1,0 +1,140 @@
+.main {
+    margin: 0;
+    
+}
+
+.logo {
+    height: auto;
+    width: 200px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+
+.websitebtn-position {
+    position: absolute; 
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%); 
+  }
+  
+  .websitebtn-style {
+    width: 150px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eba72a;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .facebookbtn-position {
+    position: absolute; 
+    top: 35%;
+    left: 68%;
+    transform: translate(-50%, -50%); 
+  }
+  
+  .facebookbtn-style {
+    width: 150px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3041d4;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .instagrambtn-position {
+    position: absolute; 
+    top: 65%;
+    left: 35%;
+    transform: translate(-50%, -50%); 
+  }
+  
+  .instagrambtn-style {
+    width: 150px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #bb4787;
+    color: white;
+    border-radius: 15px;
+  }
+
+  
+  .twitterbtn-style {
+    /*Use the width property to change the width of the button*/
+    width: 150px;
+    /*Padding property extends the content area*/
+    padding: 10px;
+    /*We give the text a sans-serif font*/
+    font-family: sans-serif;
+    /*Use the font-size property to make the text bigger or smaller*/
+    font-size: 25px;
+    /* Center the text within the anchor */
+    text-align: center;
+    /* anchor element applies an underline to the text (this is a default style),
+     so we remove it by setting the text-decoration property to none. */
+    text-decoration: none;
+    /* change the background colour of the anchor */
+    /* for more colours check out https://flatuicolors.com/ */
+    background-color: #1dcaff;
+    /* change text color to white */
+    color: white;
+    /* make the corners rounder */
+    border-radius: 15px;
+  }
+
+.twitterbtn-position {
+    position: absolute; /*if you don't specify absolute you cannot do top,left below (so you can force the element to where you want*/
+    top: 65%;
+    left: 68%;
+    transform: translate(-50%, -50%); /*try different numbers to get to the centre of page*/
+  }
+  
+  .twitterbtn-style {
+    /*Use the width property to change the width of the button*/
+    width: 150px;
+    /*Padding property extends the content area*/
+    padding: 10px;
+    /*We give the text a sans-serif font*/
+    font-family: sans-serif;
+    /*Use the font-size property to make the text bigger or smaller*/
+    font-size: 25px;
+    /* Center the text within the anchor */
+    text-align: center;
+    /* anchor element applies an underline to the text (this is a default style),
+     so we remove it by setting the text-decoration property to none. */
+    text-decoration: none;
+    /* change the background colour of the anchor */
+    /* for more colours check out https://flatuicolors.com/ */
+    background-color: #1dcaff;
+    /* change text color to white */
+    color: white;
+    /* make the corners rounder */
+    border-radius: 15px;
+  }
+  
+  /* When I hover over the button, I want these effects to be applied to the button */
+  .btn-style:hover {
+    background-color: #83e2ff;
+  }
+  
+  /* when the user clicks on the anchor, it activates and in that state we want it 
+  to change the color to yellow*/
+  .btn-style:active {
+    background-color: #f1c40f;
+  }
+  
+  /*when the link has been visited we want the background colour to change to green */
+  .btn-style:visited {
+    background-color: #2ecc71;
+  }
